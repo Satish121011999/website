@@ -1,0 +1,481 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* this is navigation */
+.nav{
+    width: 100%;
+    display: flex;
+  
+}
+.logo{
+    width: 5%;
+    background-color: yellow;
+ 
+}
+.left{
+    padding: 20px 0px ;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}
+.right{
+   
+    padding: 10px;
+    width: 70%;
+    background-color:#1E2D3B;
+    align-items: center;
+    
+}
+.right ul{
+    padding: 20px 0px ;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    
+
+}
+.right ul li a{
+    margin: 20px;
+  text-decoration: none;
+  color: white;
+    
+}
+
+/* this is the video part */
+.video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.video video{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    
+}
+.videoinfo{
+    padding: 150px 0px 300px 0px ;
+    width: 50%;
+  color: white;
+  text-align: center;
+  line-height: 70px; 
+}
+.servicediv{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    color: #1E2D3B;
+    font-size : 35px;
+}
+.yellow{
+    height: 10px;
+    width: 150px;
+    background-color: yellow;
+    
+}
+.content{
+    padding: 50px 0px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content p{
+    line-height: 30px;
+    font-style:inherit;
+}
+.content h1{
+color: #3d5975;
+padding: 20px 0px;
+}
+.box1{
+    
+    width: 25%;
+   
+}
+.pic1{
+   
+    width: 100%;
+    
+}
+.para1{
+    padding: 50px 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+ 
+}
+.box2{
+  
+    width: 25%;
+    margin: 0px 25px;
+    
+}
+.pic2{
+    
+    width: 100%;
+   
+}
+.para2{
+    padding: 50px 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+    
+}
+.box3{
+    
+    width: 25%;
+   
+}
+.pic3{
+    
+    width: 100%;
+  
+}
+.para3{
+    padding: 50px 0px;
+    width: 100%;
+    background-color: #f7f7f7;
+    
+}
+.aboutdiv{
+  
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    background-color: #f7f7f7;
+}
+
+.aboutpara{
+    
+    width: 40%;
+    background-color:#f7f7f7;
+    text-align:justify;
+    line-height: 22px;
+    margin: 0px 20px 0px 0px;
+   
+}
+.aboutpara H1{
+    padding: 10px 0px;
+    font-size: 60PX;
+    font-weight: 100;
+}
+.aboutpara p{
+    padding: 50px 0px ;
+
+}
+
+.aboutpic{
+  
+    width: 50%;
+    background-image: url(../../beautiful-view-construction-site-city-sunset_181624-9347.avif);
+    background-size:cover;
+    background-attachment: fixed;
+}
+/* this is a number part */
+.number{
+    padding: 30px 0px;
+    width: 100%;
+    background-color:#edcd1f;
+    display: flex;
+    justify-content: center;
+    color: #3d5975;
+}
+.num1{
+    width: 10%;
+}
+.num2{
+     width: 10%;
+ }
+ .num3{
+     width: 10%;
+ }
+ .num4{
+      width: 10%;
+ }
+ .white{
+    margin: 20px 50px;
+    height: 100px;
+    width: 3px;
+    background-color: white;
+ }
+ .math{
+    font-size: 60px;
+ }
+ .project{
+    padding: 50px 0px;
+    width: 100%;
+    color:#3d5975;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+ .project h1{
+    font-size: 50px;
+ }
+ /* this is an picture part */
+  .photos{  
+    height: 1000px;
+    width: 100%;
+    background-color:#f7f7f7;
+    justify-content: center;
+ }
+ .firstbox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+ }
+ .photo1{
+    background-image: url(../images/civil-engineer.avif);
+    background-size:cover;
+    width: 40%;
+    margin: 0px 30px;
+ }
+ .blank1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+ }
+.pro{
+    /* padding: 10px 0px ;   */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .photo1:hover .blank1{
+    display: block;
+ }
+ .photo2{
+    background-image: url(../images/construction-workers-sunset_53876-138180.jpg);
+    background-size:cover;
+     width: 40%;
+ }
+ .blank2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+ }
+ .photo2:hover .blank2{
+    display: block;
+ }
+
+ .secondbox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+ }
+ .photo3{
+    background-image: url(../images/large-building-site_1127-3251.jpg);
+    background-size:cover;
+    width: 40%;
+    margin: 0px 30px;
+ }
+ .blank3{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+ }
+ .photo3:hover .blank3{
+    display: block;
+ }
+
+ .photo4{
+    background-image: url(../images/picture.jpg);
+    background-size: cover;
+    
+    width: 40%;
+ }
+ .blank4{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: none;
+ }
+ .photo4:hover .blank4{
+    display: block;
+ }
+ .contact{
+    padding: 50px 0px;
+    width: 100%;
+    color:#3d5975;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+ .contact h1{
+    padding-top: 50px;
+    font-size: 50px;
+ }
+.map{
+     padding: 50px 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+/* this is footer part */
+.foot{
+    padding: 50px 0px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.leftf{
+    padding: 20px 0px;
+    width: 45%;
+}
+.leftup{
+    padding: 20px 0px;
+    width: 100%;
+}
+.leftup h1{
+    padding: 20px 0px;
+
+}
+.leftdown{
+    padding: 20px 0px;
+    width: 100%;
+   
+}
+.leftdown h1{
+    padding: 10px 0px ;
+}
+.rightf{
+    padding: 20px 0px;
+    width: 45%;
+    
+
+}
+.f1{
+    padding: 30px 0px ;
+    width: 100%;
+
+}
+.f1 h1{
+    padding: 20px 0px;
+}
+.f2{
+    padding: 30px 0px ;
+    width: 100%;
+    
+}
+.f2 h1{
+    padding: 30px 0px;
+}
+.f2 p{
+    padding: 20px 0px 60px 0px ;
+}
+.f3{
+    padding: 30px 0px ;
+    width: 100%;
+    
+}
+.f3 h1{
+    padding: 20px 0px ;
+}
+
+input{
+    margin: 10px 0px;
+    width: 80%;
+    padding: 5px 0px ;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+}
+input:hover{
+    background-color: grey;
+}
+.message{
+    padding: 40px 0px;
+}
+button{
+    width: 100px;
+    padding: 10px 0px;
+    border: 1px solid black;
+    background-color: #3B3A3A;
+    color: yellow;
+}
+button:hover{
+    background-color: yellow;
+    color: #3B3A3A;
+}
+.final{
+    padding: 30px 0px ;
+     width: 100%;
+     display: flex;
+}
+.fl{
+    width: 45%;
+    padding: 20px 0px;
+
+}
+.fr{
+    padding: 20px 0px;
+    width: 45%;
+    text-align: end;
+}
+@media (max-width:800px) {
+    .videoinfo h1{
+      font-size: 10px;
+    }
+    li{
+        display: none;
+    }
+   h1{
+    font-size: 10px;
+   }
+   .aboutpara h1
+   {
+    font-size: 10px;
+   }
+   .number{
+    padding: 0px;
+    width: 70%;
+   }
+    .content{
+        display: block;
+    }
+    .box1{
+        width: 100%; 
+        height: 100%;
+    }
+    .box2{
+        width: 100%; 
+        height: 100%;
+        margin: 0px;
+    }
+    .box3{
+        width: 100%; 
+        height: 100%;
+    }
+    .aboutdiv{
+        display: flex;
+        flex-direction: column;
+    }
+   .aboutpara{
+    width: 100%;
+   }
